@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="col aling-self-end">
-                    <asp:Button runat="server" ID="btncreate" CssClass="btn btn-success form-control" Text="create" OnClick="btncreate_Click" />
+                    <asp:Button runat="server" ID="btncreate" CssClass="btn btn-success form-control" Text="Crear Nuevo" OnClick="btncreate_Click" />
                 </div>
             </div>
         </div>
@@ -25,9 +25,9 @@
                     <Columns>
                         <asp:TemplateField HeaderText="Opciones del administrador">
                             <ItemTemplate>
-                                <asp:Button runat="server" Text="Read" CssClass="btn form-control-sm btn-info" ID="btnRead" OnClick="btnRead_Click1"/>
-                                <asp:Button runat="server" Text="Update" CssClass="btn form-control-sm btn-warning" ID="btnUpdate" OnClick="btnUpdate_Click1"/>
-                                <asp:Button runat="server" Text="Delete" CssClass="btn form-control-sm btn-danger" ID="btnDelete" OnClick="btnDelete_Click1"/>
+                                <asp:Button runat="server" Text="Revisar" CssClass="btn form-control-sm btn-info" ID="btnRead" OnClick="btnRead_Click1"/>
+                                <asp:Button runat="server" Text="Actualizar" CssClass="btn form-control-sm btn-warning" ID="btnUpdate" OnClick="btnUpdate_Click1"/>
+                                <asp:Button runat="server" Text="Borrar" CssClass="btn form-control-sm btn-danger" ID="btnDelete" OnClick="btnDelete_Click1"/>
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>
